@@ -83,7 +83,7 @@ with st.sidebar:
     
     st.markdown("""
     <div class="sidebar-card">
-    
+        <h3 style='color: #1f4e79; margin-top: 0; font-size: 1.4rem;'>Sokhna DIOP</h3>
         <p class="sidebar-text">📧 diopsokhnasokhnadiop@gmail.com</p>
         <p class="sidebar-text">📍 Dakar, Senegal</p>
         <p class="sidebar-text">🎓  Etudiante en BTS Géomatique </p>
