@@ -1,4 +1,3 @@
-
 import streamlit as st
 
 # Configuration de la page
@@ -51,45 +50,46 @@ h2 {
     transform: translateY(-5px);
     box-shadow: 0 20px 40px rgba(0,0,0,0.2);
 }
-st.markdown("""
-<style>
-.sidebar-card {
-    background-color: #ffffff;
-    padding: 15px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
-    margin-bottom: 20px;
+
+.sidebar .sidebar-content {
+    background: linear-gradient(180deg, #2c5aa0 0%, #1f4e79 100%);
 }
 
 .sidebar-title {
-    font-weight: bold;
-    font-size: 16px;
-    color: #1f4e79;
-    margin-bottom: 10px;
+    color: white !important;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
 }
 
 .sidebar-text {
-    font-size: 14px;
-    margin-bottom: 6px;
+    color: #1a1a1a !important;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.sidebar-card {
+    background: rgba(255,255,255,0.95) !important;
+    padding: 20px;
+    border-radius: 15px;
+    margin: 10px 0;
+    border: 1px solid rgba(31,78,121,0.2);
 }
 </style>
-
-<div class="sidebar-card">
-    <div class="sidebar-title">📌 Informations</div>
-    <p class="sidebar-text">📧 diopsokhnasokhnadiop@gmail.com</p>
-    <p class="sidebar-text">📍 Dakar, Sénégal</p>
-</div>
-
-<div class="sidebar-card">
-    <div class="sidebar-title">🌍 Langues</div>
-    <p class="sidebar-text">✅ Français : Bien</p>
-    <p class="sidebar-text">✅ Anglais : Bien</p>
-</div>
 """, unsafe_allow_html=True)
 
+# ===== SIDEBAR (ANGLAIS) =====
+with st.sidebar:
+    st.markdown('<div class="sidebar-title">👩‍🎓 Personal Information</div>', unsafe_allow_html=True)
+    
+    st.markdown("""
+    <div class="sidebar-card">
+        <h3 style='color: #1f4e79; margin-top: 0; font-size: 1.4rem;'>Sokhna DIOP</h3>
+        <p class="sidebar-text">📧 diopsokhnasokhnadiop@gmail.com</p>
+        <p class="sidebar-text">📍 Dakar, Senegal</p>
+        <p class="sidebar-text">🎓 BTS Géomatique Student</p>
+    </div>
+    """, unsafe_allow_html=True)
 
-</div>
-""", unsafe_allow_html=True)
 # ===== HEADER (UNIQUEMENT NOM EN GRAND) =====
 st.markdown("# **SOKHNA DIOP**")
 
