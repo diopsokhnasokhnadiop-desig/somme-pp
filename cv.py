@@ -1,6 +1,5 @@
 import streamlit as st
 
-st.set_page_config(page_title="Sokhna DIOP", page_icon="📄", layout="wide")
 
 # ===== STYLE CSS =====
 st.markdown("""
