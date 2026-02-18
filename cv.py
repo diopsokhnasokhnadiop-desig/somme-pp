@@ -51,37 +51,7 @@ h2 {
     transform: translateY(-5px);
     box-shadow: 0 20px 40px rgba(0,0,0,0.2);
 }
-
-.sidebar .sidebar-content {
-    background: linear-gradient(180deg, #2c5aa0 0%, #1f4e79 100%);
-}
-
-.sidebar-title {
-    color: white !important;
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
-}
-
-.sidebar-text {
-    color: #1a1a1a !important;
-    font-size: 1rem;
-    font-weight: 500;
-}
-
-.sidebar-card {
-    background: rgba(255,255,255,0.95) !important;
-    padding: 20px;
-    border-radius: 15px;
-    margin: 10px 0;
-    border: 1px solid rgba(31,78,121,0.2);
-}
-</style>
-""", unsafe_allow_html=True)
-
-# ===== SIDEBAR (ANGLAIS) =====
-with st.sidebar:
-    st.markdown('<div class="sidebar-title">👩‍🎓 Personal Information</div>', unsafe_allow_html=True)
- st.markdown("""
+st.markdown("""
 <style>
 .sidebar-card {
     background-color: #ffffff;
@@ -114,6 +84,10 @@ with st.sidebar:
     <div class="sidebar-title">🌍 Langues</div>
     <p class="sidebar-text">✅ Français : Bien</p>
     <p class="sidebar-text">✅ Anglais : Bien</p>
+</div>
+""", unsafe_allow_html=True)
+
+
 </div>
 """, unsafe_allow_html=True)
 # ===== HEADER (UNIQUEMENT NOM EN GRAND) =====
