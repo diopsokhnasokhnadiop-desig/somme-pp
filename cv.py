@@ -36,6 +36,7 @@ h2 {
 # ===== SIDEBAR (INFOS PERSONNELLES) =====
 st.sidebar.title("👩‍🎓 Informations")
 
+st.sidebar.markdown("### Sokhna DIOP")
 st.sidebar.write("📧 diopsokhnasokhnadiop@gmail.com")
 st.sidebar.write("📍 Dakar")
 
