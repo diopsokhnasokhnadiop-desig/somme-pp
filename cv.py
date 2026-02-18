@@ -1,6 +1,5 @@
 import streamlit as st
 
-
 st.markdown("""
 <style>
 .main {
@@ -32,8 +31,8 @@ h2 {
 </style>
 """, unsafe_allow_html=True)
 
-# ===== SIDEBAR (INFOS PERSONNELLES) =====
-st.sidebar.title("👩‍🎓 Informations")
+# ===== SIDEBAR (PERSONAL INFORMATION) =====
+st.sidebar.title("👩‍🎓 Personal Information")
 
 st.sidebar.markdown("### Sokhna DIOP")
 st.sidebar.write("📧 diopsokhnasokhnadiop@gmail.com")
@@ -55,7 +54,6 @@ Rigoureuse et organisée, je suis capable de contribuer efficacement a des proje
 territoriale.
 """)
 
-
 # ===== EXPERIENCE =====
 st.markdown('<div class="card">', unsafe_allow_html=True)
 st.header("💼 Expérience")
@@ -64,10 +62,9 @@ st.write("**Projet académique : Analyse spatiale**")
 st.write("• Création de base de données")
 st.write("• Production de cartes thématiques")
 st.write("• Utilisation de Qfield pour des projets de collectes")
-st.write("• Systèmes d’Information Géographique")
+st.write("• Systèmes d'Information Géographique")
 st.write("• Télédétection")
 st.write("• Levees topographique")
-
 
 # ===== FORMATION =====
 st.markdown('<div class="card">', unsafe_allow_html=True)
@@ -84,7 +81,6 @@ st.markdown('</div>', unsafe_allow_html=True)
 st.markdown('<div class="card">', unsafe_allow_html=True)
 st.header("🛠 Compétences")
 
-
 col1, col2 = st.columns(2)
 
 with col1:
@@ -99,6 +95,6 @@ with col2:
     st.write("Travail en équipe")
     st.write("Organisation")
     st.write("Rigueur")
-    st.write("Esprit d’analyse")
+    st.write("Esprit d'analyse")
 
 st.markdown('</div>', unsafe_allow_html=True)
