@@ -1,7 +1,6 @@
 import streamlit as st
 
 
-# ===== STYLE CSS =====
 st.markdown("""
 <style>
 .main {
@@ -67,6 +66,7 @@ st.write("• Production de cartes thématiques")
 st.write("• Utilisation de Qfield pour des projets de collectes")
 st.write("• Systèmes d’Information Géographique")
 st.write("• Télédétection")
+st.write("• Levees topographique")
 
 
 # ===== FORMATION =====
