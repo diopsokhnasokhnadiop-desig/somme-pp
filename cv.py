@@ -1,7 +1,5 @@
 import streamlit as st
 
-st.set_page_config(page_title="Demande de Stage", page_icon="📄", layout="wide")
-
 # ===== STYLE CSS =====
 st.markdown("""
 <style>
@@ -57,14 +55,6 @@ Rigoureuse et organisée, je suis capable de contribuer efficacement a des proje
 territoriale.
 """)
 
-# ===== FORMATION =====
-st.markdown('<div class="card">', unsafe_allow_html=True)
-st.header("🎓 Formation et Diplôme")
-
-st.write("**BTS en Géomatique** — En cours")
-st.write("**Baccalauréat** — 2024 ")
-
-st.markdown('</div>', unsafe_allow_html=True)
 
 # ===== EXPERIENCE =====
 st.markdown('<div class="card">', unsafe_allow_html=True)
@@ -82,6 +72,16 @@ st.markdown('</div>', unsafe_allow_html=True)
 # ===== COMPETENCES =====
 st.markdown('<div class="card">', unsafe_allow_html=True)
 st.header("🛠 Compétences")
+
+# ===== FORMATION =====
+st.markdown('<div class="card">', unsafe_allow_html=True)
+st.header("🎓 Formation et Diplôme")
+
+st.write("**BTS en Géomatique** — En cours")
+st.write("**Baccalauréat** — 2024 ")
+
+st.markdown('</div>', unsafe_allow_html=True)
+
 
 col1, col2 = st.columns(2)
 
