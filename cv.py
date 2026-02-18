@@ -1,5 +1,13 @@
 import streamlit as st
 
+# Configuration de la page
+st.set_page_config(
+    page_title="CV - Sokhna DIOP",
+    page_icon="👩‍🎓",
+    layout="wide",
+    initial_sidebar_state="expanded"
+)
+
 # CSS personnalisé corrigé
 st.markdown("""
 <style>
@@ -16,7 +24,7 @@ st.markdown("""
 h1 {
     color: #1f4e79;
     text-align: center;
-    font-size: 3rem;
+    font-size: 3.5rem;
     margin-bottom: 0.5rem;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
 }
@@ -53,7 +61,6 @@ h2 {
     margin-bottom: 1rem;
 }
 
-/* CORRECTION : Texte sidebar NOIR/LISIBLE */
 .sidebar-text {
     color: #1a1a1a !important;
     font-size: 1rem;
@@ -70,7 +77,7 @@ h2 {
 </style>
 """, unsafe_allow_html=True)
 
-# ===== SIDEBAR CORRIGÉ (TEXTE LISIBLE) =====
+# ===== SIDEBAR (ANGLAIS) =====
 with st.sidebar:
     st.markdown('<div class="sidebar-title">👩‍🎓 Personal Information</div>', unsafe_allow_html=True)
     
@@ -83,7 +90,10 @@ with st.sidebar:
     </div>
     """, unsafe_allow_html=True)
 
-# ===== HEADER CORRIGÉ (TITRE FRANÇAIS) =====
+# ===== HEADER (NOM EN GRAND) =====
+st.markdown("# **SOKHNA DIOP**")
+st.markdown('<h2 style="text-align: center; color: #1f4e79; margin-top: -10px;">CURRICULUM VITAE</h2>', unsafe_allow_html=True)
+
 # ===== PROFIL =====
 st.markdown('''<div class="card">''', unsafe_allow_html=True)
 st.markdown("### 🎯 Profil Professionnel")
@@ -130,7 +140,7 @@ col1, col2 = st.columns([1, 3])
 with col1:
     st.markdown("**2024**")
 with col2:
-    st.markdown("**Baccalauréat_2024**")
+    st.markdown("**Baccalauréat**")
 st.markdown('''</div>''', unsafe_allow_html=True)
 
 # ===== COMPÉTENCES =====
