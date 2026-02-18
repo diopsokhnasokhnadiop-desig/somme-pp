@@ -1,6 +1,5 @@
 import streamlit as st
 
-    page_icon="👩‍🎓",
     layout="wide",
     initial_sidebar_state="expanded"
 )
