@@ -86,8 +86,7 @@ with st.sidebar:
     <div class="sidebar-card">
         <p class="sidebar-text">📧 diopsokhnasokhnadiop@gmail.com</p>
         <p class="sidebar-text">📍 Dakar, Senegal</p>
-        st.markdown("""
-    <div class="fr">
+
         <h2>🇫🇷 FRANÇAIS Bien</h2>
         <p><b>Anglais Bien</b></p>
         <p>Expression écrite et orale</p>
