@@ -107,13 +107,9 @@ st.markdown('''</div>''', unsafe_allow_html=True)
 st.markdown('''<div class="card">''', unsafe_allow_html=True)
 st.markdown("### 💼 Expérience Professionnelle")
 st.markdown("#### **Projet Académique : Analyse Spatiale**")
-col1, col2 = st.columns([1, 3])
-with col1:
-    st.markdown("**2024 - En cours**")
-with col2:
-    st.markdown("*Collecte, traitement et analyse de données géospatiales*")
 
 st.markdown("""
+- **Collecte, traitement et analyse de données géospatiales*
 - **Création de bases de données** géospatiales structurées
 - **Production de cartes thématiques** professionnelles  
 - **Utilisation de QField** pour la collecte de données terrain
