@@ -79,41 +79,14 @@ h2 {
 
 # ===== SIDEBAR (ANGLAIS) =====
 with st.sidebar:
+    st.markdown('<div class="sidebar-title">👩‍🎓 Personal Information</div>', unsafe_allow_html=True)
+    
     st.markdown("""
-<style>
-.sidebar-card {
-    background-color: #ffffff;
-    padding: 15px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
-    margin-bottom: 20px;
-}
-
-.sidebar-title {
-    font-weight: bold;
-    font-size: 16px;
-    color: #1f4e79;
-    margin-bottom: 10px;
-}
-
-.sidebar-text {
-    font-size: 14px;
-    margin-bottom: 6px;
-}
-</style>
-
-<div class="sidebar-card">
-    <div class="sidebar-title">📌 Informations</div>
-    <p class="sidebar-text">📧 diopsokhnasokhnadiop@gmail.com</p>
-    <p class="sidebar-text">📍 Dakar, Sénégal</p>
-</div>
-
-<div class="sidebar-card">
-    <div class="sidebar-title">🌍 Langues</div>
-    <p class="sidebar-text">✅ Français : Bien</p>
-    <p class="sidebar-text">✅ Anglais : Bien</p>
-</div>
-""", unsafe_allow_html=True)
+    <div class="sidebar-card">
+        <h3 style='color: #1f4e79; margin-top: 0; font-size: 1.4rem;'>Sokhna DIOP</h3>
+        <p class="sidebar-text">📧 diopsokhnasokhnadiop@gmail.com</p>
+        <p class="sidebar-text">📍 Dakar, Senegal</p>
+        <p class="sidebar-text">🎓  Etudiante en BTS Géomatique </p>
     </div>
     """, unsafe_allow_html=True)
 
