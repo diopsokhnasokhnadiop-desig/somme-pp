@@ -92,7 +92,7 @@ with st.sidebar:
 
 # ===== HEADER (NOM EN GRAND) =====
 st.markdown("# **SOKHNA DIOP**")
-st.markdown('<h2 style="text-align: center; color: #1f4e79; margin-top: -10px;">CURRICULUM VITAE</h2>', unsafe_allow_html=True)
+st.markdown('<h2 style="text-align: center; color: #1f4e79; margin-top: -10px;" unsafe_allow_html=True)
 
 # ===== PROFIL =====
 st.markdown('''<div class="card">''', unsafe_allow_html=True)
