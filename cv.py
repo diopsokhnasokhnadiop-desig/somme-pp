@@ -61,7 +61,7 @@ territoriale.
 st.markdown('<div class="card">', unsafe_allow_html=True)
 st.header("🎓 Formation et Diplôme")
 
-st.write("**BTS en Géomatique — En cours")
+st.write("**BTS en Géomatique** — En cours")
 st.write("**Baccalauréat** — 2024 ")
 
 st.markdown('</div>', unsafe_allow_html=True)
