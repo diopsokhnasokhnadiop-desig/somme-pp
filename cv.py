@@ -61,12 +61,8 @@ territoriale.
 st.markdown('<div class="card">', unsafe_allow_html=True)
 st.header("🎓 Formation et Diplôme")
 
-st.write("**Baccalauréat** — 2024 (Série Scientifique)")
-st.write("**BTS en Géomatique / SIG** — En cours")
-st.write("• Systèmes d’Information Géographique")
-st.write("• Cartographie")
-st.write("• Télédétection")
-st.write("• Base de données")
+st.write("**BTS en Géomatique — En cours")
+st.write("**Baccalauréat** — 2024 ")
 
 st.markdown('</div>', unsafe_allow_html=True)
 
@@ -78,6 +74,8 @@ st.write("**Projet académique : Analyse spatiale**")
 st.write("• Création de base de données")
 st.write("• Production de cartes thématiques")
 st.write("• Utilisation de QGIS et ArcGIS")
+st.write("• Systèmes d’Information Géographique")
+st.write("• Télédétection")
 
 st.markdown('</div>', unsafe_allow_html=True)
 
