@@ -132,7 +132,7 @@ st.markdown("### 🎓 Formation & Diplômes")
 
 col1, col2 = st.columns([1, 3])
 with col1:
-    st.markdown("**2024 - En cours**")
+    st.markdown("**2026 - En cours**")
 with col2:
     st.markdown("**BTS en Géomatique**")
     st.markdown("*Lycée Technique Industriel de Dakar*")
@@ -141,8 +141,7 @@ col1, col2 = st.columns([1, 3])
 with col1:
     st.markdown("**2024**")
 with col2:
-    st.markdown("**Baccalauréat Scientifique**")
-    st.markdown("*Mention Bien*")
+    st.markdown("**Baccalauréat_2024**")
 st.markdown('''</div>''', unsafe_allow_html=True)
 
 # ===== COMPÉTENCES =====
