@@ -86,7 +86,6 @@ with st.sidebar:
     <div class="sidebar-card">
         <p class="sidebar-text">📧 diopsokhnasokhnadiop@gmail.com</p>
         <p class="sidebar-text">📍 Dakar, Senegal</p>
-        <p class="sidebar-text">🎓 BTS Géomatique Student</p>
     </div>
     """, unsafe_allow_html=True)
 
