@@ -95,7 +95,7 @@ st.markdown("# **SOKHNA DIOP**")
 
 # ===== PROFIL =====
 st.markdown('''<div class="card">''', unsafe_allow_html=True)
-st.markdown("### 🎯 Profil Professionnel")
+st.markdown("### 🎯 Profil ")
 st.markdown("""
 **Étudiante en BTS Géomatique sérieuse et motivée**,  
 je possède des compétences solides en **systèmes d'information géographique (SIG)**, **cartographie** et **analyse spatiale**.  
