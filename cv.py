@@ -1,5 +1,7 @@
 import streamlit as st
 
+st.set_page_config(page_title="Sokhna DIOP", page_icon="📄", layout="wide")
+
 # ===== STYLE CSS =====
 st.markdown("""
 <style>
@@ -35,7 +37,6 @@ h2 {
 # ===== SIDEBAR (INFOS PERSONNELLES) =====
 st.sidebar.title("👩‍🎓 Informations")
 
-st.sidebar.markdown("### Sokhna DIOP")
 st.sidebar.write("📧 diopsokhnasokhnadiop@gmail.com")
 st.sidebar.write("📍 Dakar")
 
