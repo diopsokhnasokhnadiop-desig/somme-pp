@@ -42,7 +42,7 @@ st.sidebar.write("📧 diopsokhnasokhnadiop@gmail.com")
 st.sidebar.write("📍 Dakar")
 
 # ===== HEADER =====
-st.title("DEMANDE DE STAGE")
+st.title("CURRICULUM VITAE")
 st.markdown('</div>', unsafe_allow_html=True)
 
 # ===== OBJECTIF =====
@@ -50,11 +50,11 @@ st.markdown('<div class="card">', unsafe_allow_html=True)
 st.header("🎯 Profil")
 
 st.write("""
-Étudiante en BTS Géomatique, motivée et rigoureuse, je possède des compétences en 
-Systèmes d’Information Géographique, cartographie et analyse spatiale.
-
-Je recherche un stage académique afin de développer mes compétences pratiques 
-et contribuer efficacement aux projets d’une structure professionnelle.
+Étudiante en BTS géomatique,sérieuse et motivée, 
+je possède des compétences en systèmes d'information géographique (SIG), cartographie et analyse spatiale.
+Je maitrise des outils comme ArcGIS et QGIS. 
+Rigoureuse et organisée, je suis capable de contribuer efficacement a des projet techniques et d'analyse 
+territoriale.
 """)
 
 # ===== FORMATION =====
