@@ -84,9 +84,6 @@ with st.sidebar:
     """, unsafe_allow_html=True)
 
 # ===== HEADER CORRIGÉ (TITRE FRANÇAIS) =====
-st.markdown("# CURRICULUM VITAE")
-st.markdown('<h2 style="text-align: center; color: #1f4e79; margin-top: -10px;">Sokhna DIOP</h2>', unsafe_allow_html=True)
-
 # ===== PROFIL =====
 st.markdown('''<div class="card">''', unsafe_allow_html=True)
 st.markdown("### 🎯 Profil Professionnel")
