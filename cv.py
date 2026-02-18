@@ -176,5 +176,5 @@ st.markdown('''</div>''', unsafe_allow_html=True)
 # ===== FOOTER =====
 st.markdown('''<div style="text-align: center; padding: 2rem; color: #64748b; background: rgba(255,255,255,0.8);">''', unsafe_allow_html=True)
 st.markdown("**Disponible immédiatement pour stage ou alternance** 💼")
-st.markdown("**Contact : diopsokhnasokhnadiop@gmail.com** | **Dakar, Sénégal**")
+st.markdown("**Contact : 71-065-3197** | **Dakar, Sénégal**")
 st.markdown('''</div>''', unsafe_allow_html=True)
