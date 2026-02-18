@@ -8,7 +8,7 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-# CSS personnalisé amélioré
+# CSS personnalisé corrigé
 st.markdown("""
 <style>
 .main {
@@ -51,15 +51,8 @@ h2 {
     box-shadow: 0 20px 40px rgba(0,0,0,0.2);
 }
 
-.stMetric {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    padding: 1rem;
-    border-radius: 15px;
-    color: white;
-}
-
 .sidebar .sidebar-content {
-    background: linear-gradient(180deg, #1f4e79 0%, #2c5aa0 100%);
+    background: linear-gradient(180deg, #2c5aa0 0%, #1f4e79 100%);
 }
 
 .sidebar-title {
@@ -68,29 +61,39 @@ h2 {
     margin-bottom: 1rem;
 }
 
+/* CORRECTION : Texte sidebar NOIR/LISIBLE */
 .sidebar-text {
-    color: #e2e8f0 !important;
+    color: #1a1a1a !important;
     font-size: 1rem;
+    font-weight: 500;
+}
+
+.sidebar-card {
+    background: rgba(255,255,255,0.95) !important;
+    padding: 20px;
+    border-radius: 15px;
+    margin: 10px 0;
+    border: 1px solid rgba(31,78,121,0.2);
 }
 </style>
 """, unsafe_allow_html=True)
 
-# ===== SIDEBAR (PERSONAL INFORMATION) - EN ANGLAIS =====
+# ===== SIDEBAR CORRIGÉ (TEXTE LISIBLE) =====
 with st.sidebar:
     st.markdown('<div class="sidebar-title">👩‍🎓 Personal Information</div>', unsafe_allow_html=True)
     
     st.markdown("""
-    <div style='background: rgba(255,255,255,0.1); padding: 20px; border-radius: 15px; margin: 10px 0;'>
-        <h3 style='color: white; margin-top: 0;'>Sokhna DIOP</h3>
+    <div class="sidebar-card">
+        <h3 style='color: #1f4e79; margin-top: 0; font-size: 1.4rem;'>Sokhna DIOP</h3>
         <p class="sidebar-text">📧 diopsokhnasokhnadiop@gmail.com</p>
         <p class="sidebar-text">📍 Dakar, Senegal</p>
         <p class="sidebar-text">🎓 BTS Géomatique Student</p>
     </div>
     """, unsafe_allow_html=True)
 
-# ===== HEADER =====
+# ===== HEADER CORRIGÉ (TITRE FRANÇAIS) =====
 st.markdown("# CURRICULUM VITAE")
-st.markdown("**Sokhna DIOP** - Étudiante en BTS Géomatique")
+st.markdown('<h2 style="text-align: center; color: #1f4e79; margin-top: -10px;">Sokhna DIOP</h2>', unsafe_allow_html=True)
 
 # ===== PROFIL =====
 st.markdown('''<div class="card">''', unsafe_allow_html=True)
@@ -174,7 +177,7 @@ with col2:
 st.markdown('''</div>''', unsafe_allow_html=True)
 
 # ===== FOOTER =====
-st.markdown('''<div style="text-align: center; padding: 2rem; color: #64748b;">''', unsafe_allow_html=True)
+st.markdown('''<div style="text-align: center; padding: 2rem; color: #64748b; background: rgba(255,255,255,0.8);">''', unsafe_allow_html=True)
 st.markdown("**Disponible immédiatement pour stage ou alternance** 💼")
 st.markdown("**Contact : diopsokhnasokhnadiop@gmail.com** | **Dakar, Sénégal**")
 st.markdown('''</div>''', unsafe_allow_html=True)
