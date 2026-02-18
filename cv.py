@@ -64,7 +64,7 @@ st.header("💼 Expérience")
 st.write("**Projet académique : Analyse spatiale**")
 st.write("• Création de base de données")
 st.write("• Production de cartes thématiques")
-st.write("• Utilisation de QGIS et ArcGIS")
+st.write("• Utilisation de Qfield pour des projets de collectes")
 st.write("• Systèmes d’Information Géographique")
 st.write("• Télédétection")
 
