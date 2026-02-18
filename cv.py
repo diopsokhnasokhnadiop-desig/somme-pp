@@ -125,9 +125,9 @@ st.markdown("### 🎓 Formation & Diplômes")
 
 col1, col2 = st.columns([1, 3])
 with col1:
-    st.markdown("**2026 - En cours**")
+    st.markdown("**2024-2026**")
 with col2:
-    st.markdown("**BTS en Géomatique**")
+    st.markdown("**BTS en Géomatique en cours**")
     st.markdown("*CEDT LE G15*")
 
 col1, col2 = st.columns([1, 3])
