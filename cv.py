@@ -43,6 +43,19 @@ st.sidebar.write("📍 Dakar")
 
 # ===== HEADER =====
 st.title("DEMANDE DE STAGE")
+st.markdown('</div>', unsafe_allow_html=True)
+
+# ===== OBJECTIF =====
+st.markdown('<div class="card">', unsafe_allow_html=True)
+st.header("🎯 Profil")
+
+st.write("""
+Étudiante en BTS Géomatique, motivée et rigoureuse, je possède des compétences en 
+Systèmes d’Information Géographique, cartographie et analyse spatiale.
+
+Je recherche un stage académique afin de développer mes compétences pratiques 
+et contribuer efficacement aux projets d’une structure professionnelle.
+""")
 
 # ===== FORMATION =====
 st.markdown('<div class="card">', unsafe_allow_html=True)
@@ -87,19 +100,5 @@ with col2:
     st.write("Organisation")
     st.write("Rigueur")
     st.write("Esprit d’analyse")
-
-st.markdown('</div>', unsafe_allow_html=True)
-
-# ===== OBJECTIF =====
-st.markdown('<div class="card">', unsafe_allow_html=True)
-st.header("🎯 Objectif")
-
-st.write("""
-Étudiante en BTS Géomatique, motivée et rigoureuse, je possède des compétences en 
-Systèmes d’Information Géographique, cartographie et analyse spatiale.
-
-Je recherche un stage académique afin de développer mes compétences pratiques 
-et contribuer efficacement aux projets d’une structure professionnelle.
-""")
 
 st.markdown('</div>', unsafe_allow_html=True)
