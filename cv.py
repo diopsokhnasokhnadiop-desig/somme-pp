@@ -1,9 +1,5 @@
 import streamlit as st
 
-    layout="wide",
-    initial_sidebar_state="expanded"
-)
-
 # CSS personnalisé corrigé
 st.markdown("""
 <style>
