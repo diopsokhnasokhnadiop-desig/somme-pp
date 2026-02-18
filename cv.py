@@ -1,3 +1,4 @@
+
 import streamlit as st
 
 # Configuration de la page
@@ -90,9 +91,8 @@ with st.sidebar:
     </div>
     """, unsafe_allow_html=True)
 
-# ===== HEADER (NOM EN GRAND) =====
+# ===== HEADER (UNIQUEMENT NOM EN GRAND) =====
 st.markdown("# **SOKHNA DIOP**")
-st.markdown('<h2 style="text-align: center; color: #1f4e79; margin-top: -10px;" unsafe_allow_html=True)
 
 # ===== PROFIL =====
 st.markdown('''<div class="card">''', unsafe_allow_html=True)
