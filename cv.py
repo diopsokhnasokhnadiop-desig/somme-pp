@@ -109,7 +109,7 @@ st.markdown("### 💼 Expérience Professionnelle")
 st.markdown("#### **Projet Académique : Analyse Spatiale**")
 
 st.markdown("""
-- **Collecte, traitement et analyse de données géospatiales*
+- **Collecte, traitement et analyse de données** géospatiales
 - **Création de bases de données** géospatiales structurées
 - **Production de cartes thématiques** professionnelles  
 - **Utilisation de QField** pour la collecte de données terrain
