@@ -127,7 +127,7 @@ with col1:
     st.markdown("**2026 - En cours**")
 with col2:
     st.markdown("**BTS en Géomatique**")
-    st.markdown("*Lycée Technique Industriel de Dakar*")
+    st.markdown("*CEDT LE G15*")
 
 col1, col2 = st.columns([1, 3])
 with col1:
