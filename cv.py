@@ -84,6 +84,7 @@ with st.sidebar:
     st.markdown("""
     <div class="sidebar-card">
         <h3 style='color: #1f4e79; margin-top: 0; font-size: 1.4rem;'></h3>
+        t.markdown("# **SOKHNA DIOP**")
         <p class="sidebar-text">📧 diopsokhnasokhnadiop@gmail.com</p>
         <p class="sidebar-text">📍 Dakar, Senegal</p>
     </div>
@@ -94,7 +95,7 @@ st.markdown("# **SOKHNA DIOP**")
 
 # ===== PROFIL =====
 st.markdown('''<div class="card">''', unsafe_allow_html=True)
-st.markdown("### 🎯 Profil ")
+st.markdown("### Profil ")
 st.markdown("""
 **Géomaticienne,sérieuse et motivée**,  
 je possède des compétences solides en **systèmes d'information géographique (SIG)**, **cartographie** et **analyse spatiale**.  
@@ -105,7 +106,7 @@ st.markdown('''</div>''', unsafe_allow_html=True)
 
 # ===== EXPERIENCE =====
 st.markdown('''<div class="card">''', unsafe_allow_html=True)
-st.markdown("### 💼 Expérience Professionnelle")
+st.markdown("###  Expérience Professionnelle")
 st.markdown("#### **Projet Académique : Analyse Spatiale**")
 
 st.markdown("""
@@ -121,7 +122,7 @@ st.markdown('''</div>''', unsafe_allow_html=True)
 
 # ===== FORMATION =====
 st.markdown('''<div class="card">''', unsafe_allow_html=True)
-st.markdown("### 🎓 Formation & Diplômes")
+st.markdown("###  Formation ")
 
 col1, col2 = st.columns([1, 3])
 with col1:
@@ -139,7 +140,7 @@ st.markdown('''</div>''', unsafe_allow_html=True)
 
 # ===== COMPÉTENCES =====
 st.markdown('''<div class="card">''', unsafe_allow_html=True)
-st.markdown("### 🛠 Compétences Techniques & Personnelles")
+st.markdown("###  Compétences Techniques & Personnelles")
 
 col1, col2 = st.columns(2)
 
@@ -157,10 +158,10 @@ with col1:
 with col2:
     st.markdown("#### **Personnelles**")
     soft_skills = [
-        "👥 **Travail en équipe**",
+        "**Travail en équipe**",
         "**Organisation**",
         "**Rigueur**",
-        "🔍 **Esprit d'analyse**",
+        "**Esprit d'analyse**",
         " **Autonomie**"
     ]
     for skill in soft_skills:
@@ -170,6 +171,6 @@ st.markdown('''</div>''', unsafe_allow_html=True)
 
 # ===== FOOTER =====
 st.markdown('''<div style="text-align: center; padding: 2rem; color: #64748b; background: rgba(255,255,255,0.8);">''', unsafe_allow_html=True)
-st.markdown("**Disponible immédiatement pour stage ou alternance** 💼")
+st.markdown("**Disponible immédiatement pour stage * )
 st.markdown("**Contact : 71-065-31-97** | **Dakar, Sénégal**")
 st.markdown('''</div>''', unsafe_allow_html=True)
