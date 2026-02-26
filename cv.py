@@ -158,10 +158,10 @@ with col2:
     st.markdown("#### **Personnelles**")
     soft_skills = [
         "👥 **Travail en équipe**",
-        "📋 **Organisation**",
-        "✅ **Rigueur**",
+        "**Organisation**",
+        "**Rigueur**",
         "🔍 **Esprit d'analyse**",
-        "🚀 **Autonomie**"
+        " **Autonomie**"
     ]
     for skill in soft_skills:
         st.markdown(skill)
