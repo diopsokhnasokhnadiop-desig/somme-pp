@@ -127,7 +127,7 @@ col1, col2 = st.columns([1, 3])
 with col1:
     st.markdown("**2024-2026**")
 with col2:
-    st.markdown("**BTS en Géomatique **")
+    st.markdown("**BTS Géomatique **")
  
 
 col1, col2 = st.columns([1, 3])
