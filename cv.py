@@ -96,7 +96,7 @@ st.markdown("# **SOKHNA DIOP**")
 st.markdown('''<div class="card">''', unsafe_allow_html=True)
 st.markdown("### 🎯 Profil ")
 st.markdown("""
-**Étudiante en BTS Géomatique sérieuse et motivée**,  
+**Géomaticienne,sérieuse et motivée**,  
 je possède des compétences solides en **systèmes d'information géographique (SIG)**, **cartographie** et **analyse spatiale**.  
 Je maîtrise les outils professionnels comme **ArcGIS** et **QGIS**.  
 **Rigoureuse et organisée**, je suis capable de contribuer efficacement à des projets techniques et d'analyse territoriale.
@@ -127,8 +127,8 @@ col1, col2 = st.columns([1, 3])
 with col1:
     st.markdown("**2024-2026**")
 with col2:
-    st.markdown("**BTS en Géomatique en cours**")
-    st.markdown("*CEDT LE G15*")
+    st.markdown("**BTS en Géomatique **")
+ 
 
 col1, col2 = st.columns([1, 3])
 with col1:
