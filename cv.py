@@ -79,19 +79,19 @@ h2 {
 
 # ===== SIDEBAR (ANGLAIS) =====
 with st.sidebar:
-    st.markdown('<div class="sidebar-title">👩‍🎓 Personal Information</div>', unsafe_allow_html=True)
+    st.markdown('<div class="sidebar-title">Personal Sokhna DIOP</div>', unsafe_allow_html=True)
     
     st.markdown("""
     <div class="sidebar-card">
         <h3 style='color: #1f4e79; margin-top: 0; font-size: 1.4rem;'>Sokhna DIOP</h3>
         <p class="sidebar-text">📧 diopsokhnasokhnadiop@gmail.com</p>
         <p class="sidebar-text">📍 Dakar, Senegal</p>
-        <p class="sidebar-text">🎓  Etudiante en BTS Géomatique </p>
+    
     </div>
     """, unsafe_allow_html=True)
 
 # ===== HEADER (UNIQUEMENT NOM EN GRAND) =====
-st.markdown("# **SOKHNA DIOP**")
+st.markdown("# **Etude Geomatique**")
 
 # ===== PROFIL =====
 st.markdown('''<div class="card">''', unsafe_allow_html=True)
@@ -162,11 +162,11 @@ with col1:
 with col2:
     st.markdown("#### **Personnelles**")
     soft_skills = [
-        "👥 **Travail en équipe**",
-        "📋 **Organisation**",
-        "✅ **Rigueur**",
-        "🔍 **Esprit d'analyse**",
-        "🚀 **Autonomie**"
+        " **Travail en équipe**",
+        " **Organisation**",
+        " **Rigueur**",
+        " **Esprit d'analyse**",
+        " **Autonomie**"
     ]
     for skill in soft_skills:
         st.markdown(skill)
@@ -175,6 +175,5 @@ st.markdown('''</div>''', unsafe_allow_html=True)
 
 # ===== FOOTER =====
 st.markdown('''<div style="text-align: center; padding: 2rem; color: #64748b; background: rgba(255,255,255,0.8);">''', unsafe_allow_html=True)
-st.markdown("**Disponible immédiatement pour stage ou alternance** 💼")
-st.markdown("**Contact : 71-065-3197** | **Dakar, Sénégal**")
+st.markdown("**Disponible immédiatement pour stage ** ")
 st.markdown('''</div>''', unsafe_allow_html=True)
