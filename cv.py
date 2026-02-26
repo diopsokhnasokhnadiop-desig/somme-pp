@@ -95,18 +95,18 @@ st.markdown("# **Etude Geomatique**")
 
 # ===== PROFIL =====
 st.markdown('''<div class="card">''', unsafe_allow_html=True)
-st.markdown("### 🎯 Profil ")
+st.markdown("###  Profil ")
 st.markdown("""
-**Étudiante en BTS Géomatique sérieuse et motivée**,  
-je possède des compétences solides en **systèmes d'information géographique (SIG)**, **cartographie** et **analyse spatiale**.  
+** Géomaticienne **,  
+je possède des compétences  en **systèmes d'information géographique (SIG)**, **cartographie** et **analyse spatiale**.  
 Je maîtrise les outils professionnels comme **ArcGIS** et **QGIS**.  
-**Rigoureuse et organisée**, je suis capable de contribuer efficacement à des projets techniques et d'analyse territoriale.
+ je suis capable de contribuer efficacement à des projets techniques et d'analyse territoriale.
 """)
 st.markdown('''</div>''', unsafe_allow_html=True)
 
 # ===== EXPERIENCE =====
 st.markdown('''<div class="card">''', unsafe_allow_html=True)
-st.markdown("### 💼 Expérience Professionnelle")
+st.markdown("###  Expérience Professionnelle")
 st.markdown("#### **Projet Académique : Analyse Spatiale**")
 col1, col2 = st.columns([1, 3])
 with col1:
@@ -126,7 +126,7 @@ st.markdown('''</div>''', unsafe_allow_html=True)
 
 # ===== FORMATION =====
 st.markdown('''<div class="card">''', unsafe_allow_html=True)
-st.markdown("### 🎓 Formation & Diplômes")
+st.markdown("###  Formation & Diplômes")
 
 col1, col2 = st.columns([1, 3])
 with col1:
@@ -144,7 +144,7 @@ st.markdown('''</div>''', unsafe_allow_html=True)
 
 # ===== COMPÉTENCES =====
 st.markdown('''<div class="card">''', unsafe_allow_html=True)
-st.markdown("### 🛠 Compétences Techniques & Personnelles")
+st.markdown("### Compétences Techniques & Personnelles")
 
 col1, col2 = st.columns(2)
 
