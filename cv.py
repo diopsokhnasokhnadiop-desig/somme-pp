@@ -97,7 +97,7 @@ st.markdown("# **Etude Geomatique**")
 st.markdown('''<div class="card">''', unsafe_allow_html=True)
 st.markdown("###  Profil ")
 st.markdown("""
-Géomaticienne spécialisée en** systèmes d'information géographique (SIG)**, cartographie numérique et analyse spatiale. Maîtrise les logiciels professionnels** ArcGIS et QGIS** pour produire des cartes précises et des analyses territoriales. Participe activement à des projets techniques d'envergure.
+Géomaticienne spécialisée en systèmes d'information géographique (SIG), cartographie numérique et analyse spatiale. Maîtrise les logiciels professionnels ArcGIS et QGIS pour produire des cartes précises et des analyses territoriales. Participe activement à des projets techniques d'envergure.
 
 
 """)
@@ -125,19 +125,17 @@ st.markdown('''</div>''', unsafe_allow_html=True)
 
 # ===== FORMATION =====
 st.markdown('''<div class="card">''', unsafe_allow_html=True)
-st.markdown("###  Formation & Diplômes")
+st.markdown("###  Diplômes")
 
-col1, col2 = st.columns([1, 3])
+col1 = st.columns([1, 3])
+
 with col1:
-    st.markdown("**2026 - En cours**")
-with col2:
     st.markdown("**BTS en Géomatique**")
-    st.markdown("*CEDT LE G15*")
 
-col1, col2 = st.columns([1, 3])
+
+col1 = st.columns([1, 3])
+
 with col1:
-    st.markdown("**2024**")
-with col2:
     st.markdown("**Baccalauréat**")
 st.markdown('''</div>''', unsafe_allow_html=True)
 
