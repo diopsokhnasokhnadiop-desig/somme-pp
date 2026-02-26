@@ -83,10 +83,10 @@ with st.sidebar:
     
     st.markdown("""
     <div class="sidebar-card">
-        <h3 style='color: #1f4e79; margin-top: 0; font-size: 1.4rem;'></h3>
-        t.markdown("# **SOKHNA DIOP**")
+        <h3 style='color: #1f4e79; margin-top: 0; font-size: 1.4rem;'>Sokhna DIOP</h3>
         <p class="sidebar-text">📧 diopsokhnasokhnadiop@gmail.com</p>
         <p class="sidebar-text">📍 Dakar, Senegal</p>
+        <p class="sidebar-text">🎓  Etudiante en BTS Géomatique </p>
     </div>
     """, unsafe_allow_html=True)
 
@@ -95,9 +95,9 @@ st.markdown("# **SOKHNA DIOP**")
 
 # ===== PROFIL =====
 st.markdown('''<div class="card">''', unsafe_allow_html=True)
-st.markdown("### Profil ")
+st.markdown("### 🎯 Profil ")
 st.markdown("""
-**Géomaticienne,sérieuse et motivée**,  
+**Étudiante en BTS Géomatique sérieuse et motivée**,  
 je possède des compétences solides en **systèmes d'information géographique (SIG)**, **cartographie** et **analyse spatiale**.  
 Je maîtrise les outils professionnels comme **ArcGIS** et **QGIS**.  
 **Rigoureuse et organisée**, je suis capable de contribuer efficacement à des projets techniques et d'analyse territoriale.
@@ -106,11 +106,15 @@ st.markdown('''</div>''', unsafe_allow_html=True)
 
 # ===== EXPERIENCE =====
 st.markdown('''<div class="card">''', unsafe_allow_html=True)
-st.markdown("###  Expérience Professionnelle")
+st.markdown("### 💼 Expérience Professionnelle")
 st.markdown("#### **Projet Académique : Analyse Spatiale**")
+col1, col2 = st.columns([1, 3])
+with col1:
+    st.markdown("**2024 - En cours**")
+with col2:
+    st.markdown("*Collecte, traitement et analyse de données géospatiales*")
 
 st.markdown("""
-- **Collecte, traitement et analyse de données** géospatiales
 - **Création de bases de données** géospatiales structurées
 - **Production de cartes thématiques** professionnelles  
 - **Utilisation de QField** pour la collecte de données terrain
@@ -122,14 +126,14 @@ st.markdown('''</div>''', unsafe_allow_html=True)
 
 # ===== FORMATION =====
 st.markdown('''<div class="card">''', unsafe_allow_html=True)
-st.markdown("###  Formation ")
+st.markdown("### 🎓 Formation & Diplômes")
 
 col1, col2 = st.columns([1, 3])
 with col1:
-    st.markdown("**2024-2026**")
+    st.markdown("**2026 - En cours**")
 with col2:
-    st.markdown("**BTS Géomatique **")
- 
+    st.markdown("**BTS en Géomatique**")
+    st.markdown("*CEDT LE G15*")
 
 col1, col2 = st.columns([1, 3])
 with col1:
@@ -140,7 +144,7 @@ st.markdown('''</div>''', unsafe_allow_html=True)
 
 # ===== COMPÉTENCES =====
 st.markdown('''<div class="card">''', unsafe_allow_html=True)
-st.markdown("###  Compétences Techniques & Personnelles")
+st.markdown("### 🛠 Compétences Techniques & Personnelles")
 
 col1, col2 = st.columns(2)
 
@@ -158,11 +162,11 @@ with col1:
 with col2:
     st.markdown("#### **Personnelles**")
     soft_skills = [
-        "**Travail en équipe**",
-        "**Organisation**",
-        "**Rigueur**",
-        "**Esprit d'analyse**",
-        " **Autonomie**"
+        "👥 **Travail en équipe**",
+        "📋 **Organisation**",
+        "✅ **Rigueur**",
+        "🔍 **Esprit d'analyse**",
+        "🚀 **Autonomie**"
     ]
     for skill in soft_skills:
         st.markdown(skill)
@@ -171,6 +175,6 @@ st.markdown('''</div>''', unsafe_allow_html=True)
 
 # ===== FOOTER =====
 st.markdown('''<div style="text-align: center; padding: 2rem; color: #64748b; background: rgba(255,255,255,0.8);">''', unsafe_allow_html=True)
-st.markdown("**Disponible immédiatement pour stage * )
-st.markdown("**Contact : 71-065-31-97** | **Dakar, Sénégal**")
+st.markdown("**Disponible immédiatement pour stage ou alternance** 💼")
+st.markdown("**Contact : 71-065-3197** | **Dakar, Sénégal**")
 st.markdown('''</div>''', unsafe_allow_html=True)
