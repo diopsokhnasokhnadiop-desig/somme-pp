@@ -97,9 +97,8 @@ st.markdown("# **Etude Geomatique**")
 st.markdown('''<div class="card">''', unsafe_allow_html=True)
 st.markdown("###  Profil ")
 st.markdown("""
-** Géomaticienne **,  
-je possède des compétences  en **systèmes d'information géographique (SIG)**, **cartographie** et **analyse spatiale**.  
-Je maîtrise les outils professionnels comme **ArcGIS** et **QGIS**.  
+ Géomaticienne ,  je possède des compétences  en **systèmes d'information géographique (SIG)**, **cartographie** et **analyse spatiale**.  
+ maîtrisant les outils professionnels comme **ArcGIS** et **QGIS**.  
  je suis capable de contribuer efficacement à des projets techniques et d'analyse territoriale.
 """)
 st.markdown('''</div>''', unsafe_allow_html=True)
