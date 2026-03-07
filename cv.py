@@ -83,15 +83,15 @@ with st.sidebar:
     <div class="sidebar-card">
         <div class="sidebar-name">Sokhna DIOP</div>
         <br>
-        <div class="sidebar-text">📧 diopsokhnasokhnadiop@gmail.com</div>
-        <div class="sidebar-text">📍 Dakar, Sénégal</div>
+        <div class="sidebar-text">diopsokhnasokhnadiop@gmail.com</div>
+        <div class="sidebar-text"> Dakar, Sénégal</div>
     </div>
     """, unsafe_allow_html=True)
 
     # Disponibilité
     st.markdown("""
     <div class="sidebar-section">
-    <h4 style="color:#1f4e79;">📅 Disponibilité</h4>
+    <h4 style="color:#1f4e79;"> Disponibilité</h4>
 
     ✔ Disponible pour stage  
     ✔ Disponible pour projets SIG  
