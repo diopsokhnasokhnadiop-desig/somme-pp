@@ -3,71 +3,86 @@ import streamlit as st
 # Configuration de la page
 st.set_page_config(
     page_title="CV - Sokhna DIOP",
-    page_icon="👩‍🎓",
+    page_icon="🎓",
     layout="wide",
     initial_sidebar_state="expanded"
 )
 
-# CSS amélioré
+# ===== STYLE CSS =====
+
 st.markdown("""
 <style>
 
 .main {
-    background: linear-gradient(135deg,#f5f7fa,#c3cfe2);
+    background: linear-gradient(120deg,#eef2f7,#d9e2ec);
 }
 
 .block-container{
     padding-top:2rem;
-    max-width:1200px;
+    max-width:1100px;
 }
+
+/* TITRE */
 
 h1{
-    color:#1f4e79;
+    color:#1f3c5a;
     text-align:center;
-    font-size:3.5rem;
+    font-size:3rem;
+    margin-bottom:30px;
 }
 
-h2{
-    color:#1f4e79;
-    border-bottom:3px solid #1f4e79;
+/* TITRES */
+
+h2, h3{
+    color:#1f3c5a;
+    border-bottom:2px solid #d0d7de;
+    padding-bottom:6px;
 }
+
+/* CARDS */
 
 .card{
     background:white;
-    padding:30px;
-    border-radius:20px;
-    box-shadow:0 10px 25px rgba(0,0,0,0.15);
+    padding:35px;
+    border-radius:18px;
+    box-shadow:0 6px 20px rgba(0,0,0,0.08);
     margin-bottom:25px;
+    transition:0.3s;
+}
+
+.card:hover{
+    box-shadow:0 10px 30px rgba(0,0,0,0.15);
+    transform:translateY(-3px);
 }
 
 /* SIDEBAR */
 
 [data-testid="stSidebar"]{
-    background:linear-gradient(180deg,#2c5aa0,#1f4e79);
+    background:#1f3c5a;
 }
 
 .sidebar-card{
     background:white;
-    padding:20px;
-    border-radius:15px;
+    padding:22px;
+    border-radius:14px;
     margin-bottom:20px;
 }
 
 .sidebar-name{
     font-size:22px;
-    font-weight:bold;
-    color:#1f4e79;
+    font-weight:600;
+    color:#1f3c5a;
     text-align:center;
 }
 
 .sidebar-text{
     font-size:14px;
-    color:#333;
+    color:#444;
 }
 
 .sidebar-section{
     background:white;
-    padding:15px;
+    padding:18px;
     border-radius:12px;
     margin-bottom:15px;
 }
@@ -83,26 +98,27 @@ with st.sidebar:
     <div class="sidebar-card">
         <div class="sidebar-name">Sokhna DIOP</div>
         <br>
-        <div class="sidebar-text">📧 diopsokhnasokhnadiop@gmail.com</div>
-        <div class="sidebar-text">📍 Dakar, Sénégal</div>
+        <div class="sidebar-text">Email : diopsokhnasokhnadiop@gmail.com</div>
+        <div class="sidebar-text">Localisation : Dakar, Sénégal</div>
     </div>
     """, unsafe_allow_html=True)
 
-    # Disponibilité
     st.markdown("""
     <div class="sidebar-section">
-    <h4 style="color:#1f4e79;">📅 Disponibilité</h4>
 
-    ✔ Disponible pour stage  
-    ✔ Disponible pour projets SIG  
-    ✔ Disponible pour collecte de données terrain  
+    <h4>Disponibilité</h4>
+
+    Disponible pour stage  
+    Disponible pour projets SIG  
+    Disponible pour collecte de données terrain  
 
     </div>
     """, unsafe_allow_html=True)
 
 # ===== HEADER =====
 
-st.markdown("# **Etudiante en Geomatique**")
+st.markdown("# Sokhna DIOP")
+st.markdown("### Étudiante en Géomatique")
 
 # ===== PROFIL =====
 
@@ -124,23 +140,30 @@ st.markdown('<div class="card">', unsafe_allow_html=True)
 
 st.markdown("### Expérience Professionnelle")
 
-st.markdown("#### **Projet Académique : Analyse Spatiale**")
+st.markdown("Projet Académique : Analyse Spatiale")
 
 col1, col2 = st.columns([1,3])
 
 with col1:
-    st.markdown("**2024 - En cours**")
+    st.markdown("2024 - En cours")
 
 with col2:
-    st.markdown("*Collecte, traitement et analyse de données géospatiales*")
+    st.markdown("Collecte, traitement et analyse de données géospatiales")
 
 st.markdown("""
-- **Création de bases de données** géospatiales structurées
-- **Production de cartes thématiques** professionnelles  
-- **Utilisation de QField** pour la collecte de données terrain
-- **Systèmes d'Information Géographique (SIG)**
-- **Télédétection** et analyse d'images satellites
-- **Levées topographiques** et modélisation 3D
+
+Création de bases de données géospatiales structurées  
+
+Production de cartes thématiques professionnelles  
+
+Utilisation de QField pour la collecte de données terrain  
+
+Systèmes d'Information Géographique (SIG)
+
+Télédétection et analyse d'images satellites
+
+Levées topographiques et modélisation 3D
+
 """)
 
 st.markdown('</div>', unsafe_allow_html=True)
@@ -151,9 +174,9 @@ st.markdown('<div class="card">', unsafe_allow_html=True)
 
 st.markdown("### Diplômes")
 
-st.markdown("**BTS en Géomatique**")
+st.markdown("BTS en Géomatique")
 
-st.markdown("**Baccalauréat**")
+st.markdown("Baccalauréat")
 
 st.markdown('</div>', unsafe_allow_html=True)
 
@@ -161,7 +184,7 @@ st.markdown('</div>', unsafe_allow_html=True)
 
 st.markdown('<div class="card">', unsafe_allow_html=True)
 
-st.markdown("### Compétences Techniques & Personnelles")
+st.markdown("### Compétences Techniques et Personnelles")
 
 col1, col2 = st.columns(2)
 
@@ -169,30 +192,30 @@ with col1:
 
     st.markdown("#### Techniques")
 
-    tech_skills=[
-        "🗺️ **ArcGIS** (Avancé)",
-        "🗺️ **QGIS** (Avancé)",
-        "🐍 **Python** (Intermédiaire)",
-        "🐘 **PostgreSQL/PostGIS**"
-    ]
+    st.markdown("""
+ArcGIS (Avancé)
 
-    for skill in tech_skills:
-        st.markdown(skill)
+QGIS (Avancé)
+
+Python (Intermédiaire)
+
+PostgreSQL / PostGIS
+""")
 
 with col2:
 
     st.markdown("#### Personnelles")
 
-    soft_skills=[
-        "Travail en équipe",
-        "Organisation",
-        "Rigueur",
-        "Esprit d'analyse",
-        "Autonomie"
-    ]
+    st.markdown("""
+Travail en équipe
 
-    for skill in soft_skills:
-        st.markdown(skill)
+Organisation
+
+Rigueur
+
+Esprit d'analyse
+
+Autonomie
+""")
 
 st.markdown('</div>', unsafe_allow_html=True)
-
