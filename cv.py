@@ -83,8 +83,8 @@ with st.sidebar:
     <div class="sidebar-card">
         <div class="sidebar-name">Sokhna DIOP</div>
         <br>
-        <div class="sidebar-text"> diopsokhnasokhnadiop@gmail.com</div>
-        <div class="sidebar-text"> Dakar, Sénégal</div>
+        <div class="sidebar-text">📧 diopsokhnasokhnadiop@gmail.com</div>
+        <div class="sidebar-text">📍 Dakar, Sénégal</div>
     </div>
     """, unsafe_allow_html=True)
 
@@ -196,8 +196,3 @@ with col2:
 
 st.markdown('</div>', unsafe_allow_html=True)
 
-# ===== FOOTER =====
-
-
-</div>
-""", unsafe_allow_html=True)
