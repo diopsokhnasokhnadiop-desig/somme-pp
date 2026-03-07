@@ -79,8 +79,7 @@ h2 {
 
 # ===== SIDEBAR (ANGLAIS) =====
 with st.sidebar:
-    st.markdown('<div class="sidebar-title">Personal Sokhna DIOP</div>', unsafe_allow_html=True)
-    
+
     st.markdown("""
     <div class="sidebar-card">
         <h3 style='color: #1f4e79; margin-top: 0; font-size: 1.4rem;'>Sokhna DIOP</h3>
@@ -140,7 +139,7 @@ with col1:
 st.markdown('''</div>''', unsafe_allow_html=True)
 
 # ===== COMPÉTENCES =====
-st.markdown('''<div class="card">''', unsafe_allow_html=True)
+st.markdown('<div class="card">', unsafe_allow_html=True)
 st.markdown("### Compétences Techniques & Personnelles")
 
 col1, col2 = st.columns(2)
