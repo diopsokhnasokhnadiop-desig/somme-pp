@@ -117,7 +117,7 @@ st.markdown("""
 - **Production de cartes thématiques** professionnelles  
 - **Utilisation de QField** pour la collecte de données terrain
 - **Systèmes d'Information Géographique (SIG)**
-- **Télédétection** et analyse d'images satellites
+- * *Télédétection** et analyse d'images satellites
 - **Levées topographiques** et modélisation 3D
 """)
 st.markdown('''</div>''', unsafe_allow_html=True)
