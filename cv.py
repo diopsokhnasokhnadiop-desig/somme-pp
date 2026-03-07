@@ -198,8 +198,6 @@ st.markdown('</div>', unsafe_allow_html=True)
 
 # ===== FOOTER =====
 
-st.markdown("""
-<div style="text-align:center;padding:2rem;color:#64748b;">
-<b>Disponible immédiatement pour stage</b>
+
 </div>
 """, unsafe_allow_html=True)
